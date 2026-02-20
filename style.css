@@ -1,3 +1,24 @@
 * {
   box-sizing: border-box;
+  border: solid blue 2px;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.main-content1 .image {
+  background-color: gray;
+  width: 370px;
+  height: 150px;
+  color: aliceblue;
+}
+
+.card {
+  width: 120px;
+}
+
+.card .image {
+  width: 120px;
+  height: 120px;
 }
