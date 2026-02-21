@@ -142,13 +142,14 @@ a,
 
 .card .txt {
   text-align: center;
+  font-size: 16px;
 }
 
 .card .image {
   width: 150px;
   height: 150px;
   border-radius: 10px;
-  border: solid 4px #3882f6;
+  border: solid 5px #3882f6;
 }
 
 .section3 {
