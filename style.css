@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -150,4 +150,34 @@ button {
   height: 150px;
   border-radius: 10px;
   border: solid 4px #3882f6;
+}
+
+.section3 {
+  background-color: #e5e7eb;
+  display: flex;
+}
+
+.section3 .main-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 18%;
+  padding-right: 18%;
+  gap: 7px;
+}
+
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 25px;
+  padding-right: 50px;
 }
