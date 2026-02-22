@@ -15,9 +15,8 @@ body {
   margin: 0;
 }
 
-.section2,
-.section3 {
-  height: 500px;
+.section2 {
+  height: 480px;
 }
 
 
@@ -155,6 +154,7 @@ a,
 .section3 {
   background-color: #e5e7eb;
   display: flex;
+  height: 420px;
 }
 
 .section3 .main-content {
@@ -186,8 +186,8 @@ a,
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 12%;
+  padding-right: 12%;
   padding-top: 7%;
   padding-bottom: 7%;
 }
@@ -224,4 +224,17 @@ a,
 .calltoaction {
   font-size: 25px;
   font-weight: bold;
+}
+
+.footing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: solid 2px black;
+  color: #f9faf8;
+  background-color: #1f2937;
+  font-size: 18px;
+
+
 }
